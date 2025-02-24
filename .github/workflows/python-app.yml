@@ -28,6 +28,6 @@ jobs:
 
       - name: Run script
         env:
-          DISCORD_TOKEN: ${{ secrets.KAMAR_BOT_TOKEN }}  # Use the secret here
+          KAMAR_BOT_TOKEN: ${{ secrets.KAMAR_BOT_TOKEN }}  # Use the secret here
         run: |
           python bot.py
