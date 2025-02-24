@@ -6,7 +6,7 @@ name: Python application
 on:
   schedule:
     # Run at 2:00 AM UTC every day
-    - cron: '0 18 * * 1'
+    - cron: '0 17 * * 1'
   workflow_dispatch:
 
 jobs:
@@ -31,5 +31,4 @@ jobs:
         env:
           KAMAR_BOT_TOKEN: ${{ secrets.KAMAR_BOT_TOKEN }}  # Use the secret here
         run: |
-          python test_token.py
           python bot.py
