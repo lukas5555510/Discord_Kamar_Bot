@@ -23,9 +23,10 @@ class MyBot(discord.Client):
 
         if channel:
             message = await channel.send(
-                f"<@&1051182697231425568> {formatted_date} react if you want to save a spot. After (20:40 game time), I recruit randoms if you don't react."
+                #f"<@&1051182697231425568> {formatted_date} react if you want to save a spot. After (20:40 game time), I recruit randoms if you don't react."
+                f"test message and role ping <@&1051182697231425568>"
             )
-            await message.add_reaction("👍") 
+            #await message.add_reaction("👍") 
             await self.close() 
 
 bot = MyBot(intents=discord.Intents.default())
