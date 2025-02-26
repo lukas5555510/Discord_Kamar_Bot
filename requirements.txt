@@ -1,6 +1,5 @@
 asyncio
 discord
-flask
 datetime
 pytz
 python-dotenv
