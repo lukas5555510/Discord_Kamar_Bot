@@ -4,9 +4,6 @@
 name: Python application
 
 on:
-  schedule:
-    # Run at 2:00 AM UTC every day
-    - cron: '0 17 * * 1'
   workflow_dispatch:
 
 jobs:
