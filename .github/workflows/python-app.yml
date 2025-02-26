@@ -31,7 +31,7 @@ jobs:
       - name: Set argument
         id: set-argument
         run: |
-          DAY_OF_WEEK=$(date+%u)
+          DAY_OF_WEEK=$(date +%u)
           case "$DAY_OF_WEEK" in
             6|0)
                 echo "ARG='17:40'" >> $GITHUB_ENV
