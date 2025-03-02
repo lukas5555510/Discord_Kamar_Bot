@@ -33,7 +33,7 @@ jobs:
         run: |
           DAY_OF_WEEK=$(date +%u)
           case "$DAY_OF_WEEK" in
-            6|0)
+            0|6|7)
                 echo "ARG=17:40" >> $GITHUB_ENV
                 ;;
             1|2|3|4|5)
