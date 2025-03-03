@@ -29,7 +29,7 @@ class MyBot(discord.Client):
         if channel:
             message = await channel.send(
                 #f"<@&1051182697231425568> {formatted_date} react if you want to save a spot. After ({sys.argv[1]} game time), I recruit randoms if you don't react."
-                f"{formatted_date} {sys.argv[1]} POKA SIURA "
+                f"{formatted_date} {sys.argv[1]} Any Message "
 
             )
             #await message.add_reaction("👍") 
